@@ -1,0 +1,20 @@
+{
+  "name": "body-anatomy-data",
+  "version": "1.0.0",
+  "description": "SVG muscle and joint-position data for a male and female body, front and back, in a compact JSON format.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "bodies.json",
+    "joints.json",
+    "types.ts",
+    "LICENSE",
+    "CREDITS.md",
+    "README.md"
+  ],
+  "exports": {
+    "./bodies.json": "./bodies.json",
+    "./joints.json": "./joints.json",
+    "./types": "./types.ts"
+  }
+}
